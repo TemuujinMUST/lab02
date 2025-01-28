@@ -4,4 +4,6 @@ public interface Shape {
     double getArea();
 
     String getShapeName();
+
+    void draw();
 }
