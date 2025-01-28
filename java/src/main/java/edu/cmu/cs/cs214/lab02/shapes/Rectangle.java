@@ -15,7 +15,7 @@ public class Rectangle implements Shape {
     }
 
     @Override
-    public String getShapeName() {
-        return "Rectangle";
+    public void draw() {
+        System.out.println("The area of rectangle is " + getArea());
     }
 }

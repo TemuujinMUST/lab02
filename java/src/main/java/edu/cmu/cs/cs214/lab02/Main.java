@@ -17,6 +17,6 @@ public class Main {
     }
 
     public static void printShape(Shape shape) {
-        System.out.println("Shape printed\n" + "The area of " + shape.getShapeName() + " is " + shape.getArea());
+        shape.draw();
     }
 }

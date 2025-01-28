@@ -13,7 +13,7 @@ public class Circle implements Shape {
     }
 
     @Override
-    public String getShapeName() {
-        return "Circle";
+    public void draw() {
+        System.out.println("The area of circle is " + getArea());
     }
 }

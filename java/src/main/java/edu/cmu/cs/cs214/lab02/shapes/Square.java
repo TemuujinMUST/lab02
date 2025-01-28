@@ -13,7 +13,7 @@ public class Square implements Shape {
     }
 
     @Override
-    public String getShapeName() {
-        return "Square";
+    public void draw() {
+        System.out.println("The area of square is " + getArea());
     }
 }
